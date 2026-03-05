@@ -72,9 +72,9 @@ export default function Home() {
                             </div>
                             <div className="hero-stats">
                                 <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">Students</div></div>
-                                <div style={{ width: 1, background: 'rgba(139,105,20,.15)', alignSelf: 'stretch' }} />
+                                <div className="hide-mobile" style={{ width: 1, background: 'rgba(139,105,20,.15)', alignSelf: 'stretch' }} />
                                 <div><div className="hero-stat-val">8+</div><div className="hero-stat-lbl">Programs</div></div>
-                                <div style={{ width: 1, background: 'rgba(139,105,20,.15)', alignSelf: 'stretch' }} />
+                                <div className="hide-mobile" style={{ width: 1, background: 'rgba(139,105,20,.15)', alignSelf: 'stretch' }} />
                                 <div><div className="hero-stat-val">5★</div><div className="hero-stat-lbl">Rating</div></div>
                             </div>
                         </div>

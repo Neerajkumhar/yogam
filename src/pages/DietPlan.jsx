@@ -88,7 +88,7 @@ export default function DietPlan() {
                         <div className="ornament-divider"><span>🪷</span></div>
                     </div>
                     <div style={{ padding: 40, borderRadius: 24, background: 'var(--beige)', border: '1px solid rgba(201,169,110,0.3)' }}>
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px 24px' }}>
+                        <div className="responsive-grid-2" style={{ gap: '12px 24px' }}>
                             {included.map(item => (
                                 <div key={item} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                                     <div style={{ width: 22, height: 22, borderRadius: '50%', background: 'var(--sage)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>

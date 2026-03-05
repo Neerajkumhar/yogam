@@ -28,7 +28,7 @@ export default function Schedule() {
             {/* Timing cards */}
             <section style={{ padding: '36px 24px 0', background: 'var(--cream)' }}>
                 <div className="container">
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+                    <div className="responsive-grid-2" style={{ gap: 16 }}>
                         {[
                             { emoji: '🌅', label: 'Morning Session', sub: '6:00 AM – 9:00 AM | Monday – Sunday' },
                             { emoji: '🌆', label: 'Evening Session', sub: '5:00 PM – 8:00 PM | Monday – Sunday' },

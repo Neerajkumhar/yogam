@@ -24,7 +24,7 @@ export default function Contact() {
             {/* Main grid */}
             <section className="section-pad" style={{ background: 'var(--cream)' }}>
                 <div className="container">
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 48, alignItems: 'start' }}>
+                    <div className="two-col items-start gap-md">
                         {/* Contact Info */}
                         <div>
                             <h2 style={{ fontFamily: 'Cormorant Garamond,serif', fontSize: '1.9rem', fontWeight: 600, color: 'var(--deep-brown)', marginBottom: 24 }}>Reach Out to Us</h2>

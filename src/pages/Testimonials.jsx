@@ -39,7 +39,7 @@ export default function Testimonials() {
             {/* Stats */}
             <section style={{ padding: '36px 24px', background: 'var(--cream)' }}>
                 <div className="container" style={{ maxWidth: 780 }}>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 16 }}>
+                    <div className="services-grid">
                         {stats.map(s => (
                             <div key={s.label} className="stat-box">
                                 <div className="stat-val">{s.value}</div>

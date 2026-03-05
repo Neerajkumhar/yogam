@@ -52,7 +52,7 @@ export default function Gallery() {
             {/* Grid */}
             <section className="section-pad" style={{ background: 'var(--cream)', paddingTop: 20 }}>
                 <div className="container">
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 14 }}>
+                    <div className="gallery-grid">
                         {filtered.map((img, i) => (
                             <div key={i} className="gallery-item" style={{ aspectRatio: '1/1', cursor: 'pointer' }}
                                 onClick={() => setLightbox(img)}>
